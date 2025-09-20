@@ -1,8 +1,13 @@
+import Banner from "./component/Header/Banner";
+import Header from "./component/Header/Header";
+
 const App = () => {
   return (
     <>
-      <h1>Hello World!</h1>
-      <button class="btn btn-primary">Hello World!</button>
+      <main className="container mx-auto">
+        <Header />
+        <Banner />
+      </main>
     </>
   );
 };

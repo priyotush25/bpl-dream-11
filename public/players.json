@@ -7,7 +7,7 @@
     "bowlingStyle": "Slow left-arm orthodox",
     "team": "Fortune Barishal",
     "price": 120000,
-    "image": "https://images.aljazeera.com/wp-content/uploads/2023/10/000_33XZ3YV-1696934056.jpg"
+    "image": "https://i.postimg.cc/vZtvdkNJ/Shakib-Al-Hasan.jpg"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "bowlingStyle": "Right-arm offbreak",
     "team": "Dhaka Dominators",
     "price": 100000,
-    "image": "https://resources.pulse.icc-cricket.com/ICC/photo/2022/08/16/cb69b2e0-37c4-438c-8f89-33e0213a4911/Tamim.png"
+    "image": "https://i.postimg.cc/jqBc6zfF/Tamim-Iqbal.webp"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "bowlingStyle": "N/A",
     "team": "Sylhet Strikers",
     "price": 90000,
-    "image": "https://icc-static-files.s3.amazonaws.com/player-images/2939.png"
+    "image": "https://i.postimg.cc/hjzxh52P/Mushfiqur-Rahim.webp"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "bowlingStyle": "Right-arm offbreak",
     "team": "Chattogram Challengers",
     "price": 80000,
-    "image": "https://icc-static-files.s3.amazonaws.com/player-images/560.png"
+    "image": "https://i.postimg.cc/pVjzH39s/Mahmudullah-Riyad.webp"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "bowlingStyle": "N/A",
     "team": "Comilla Victorians",
     "price": 100000,
-    "image": "https://images.icc-cricket.com/image/upload/t_player-profile-hero/prd/players/loton_das.png"
+    "image": "https://i.postimg.cc/X78ZNWnk/Liton-das.png"
   },
   {
     "id": 6,
@@ -67,7 +67,7 @@
     "bowlingStyle": "Left-arm fast-medium",
     "team": "Comilla Victorians",
     "price": 110000,
-    "image": "https://resources.pulse.icc-cricket.com/players/2899/1594.png"
+    "image": "https://i.postimg.cc/vZh5K91M/Mustafizur-Rahman.webp"
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "bowlingStyle": "Right-arm offbreak",
     "team": "Khulna Tigers",
     "price": 60000,
-    "image": "https://resources.pulse.icc-cricket.com/players/2899/1025.png"
+    "image": "https://i.postimg.cc/kgYB8y6V/ehidy-Hasan-Miraz.webp"
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "bowlingStyle": "Right-arm offbreak",
     "team": "Sylhet Strikers",
     "price": 50000,
-    "image": "https://resources.pulse.icc-cricket.com/players/2899/1590.png"
+    "image": "https://i.postimg.cc/8kfBCjYB/Najmul-Hossain-Shanto.webp"
   },
   {
     "id": 10,
@@ -97,7 +97,7 @@
     "bowlingStyle": "Right-arm offbreak",
     "team": "Rangpur Riders",
     "price": 40000,
-    "image": "https://resources.pulse.icc-cricket.com/players/2899/1592.png"
+    "image": "https://i.postimg.cc/brPJ8CM5/Afif-Hossain.jpg"
   },
   {
     "id": 11,
@@ -107,7 +107,7 @@
     "bowlingStyle": "Right-arm offbreak",
     "team": "Khulna Tigers",
     "price": 45000,
-    "image": "https://resources.pulse.icc-cricket.com/players/2899/1595.png"
+    "image": "https://i.postimg.cc/6QHL8Rwz/Sabbir-Rahman.jpg"
   },
   {
     "id": 12,
@@ -117,6 +117,6 @@
     "bowlingStyle": "Right-arm offbreak",
     "team": "Rangpur Riders",
     "price": 35000,
-    "image": "https://resources.pulse.icc-cricket.com/players/2899/1600.png"
+    "image": "https://i.postimg.cc/T1nDJW8z/Mosaddek-Hossain.jpg"
   }
 ]
