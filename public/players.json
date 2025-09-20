@@ -7,7 +7,7 @@
     "bowlingStyle": "Slow left-arm orthodox",
     "team": "Fortune Barishal",
     "price": 120000,
-    "image": "https://i.postimg.cc/vZtvdkNJ/Shakib-Al-Hasan.jpg"
+    "image": "https://i.postimg.cc/QMTj0D8J/Shakib-Al-Hasan-removebg-preview.png"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "bowlingStyle": "Right-arm offbreak",
     "team": "Dhaka Dominators",
     "price": 100000,
-    "image": "https://i.postimg.cc/jqBc6zfF/Tamim-Iqbal.webp"
+    "image": "https://i.postimg.cc/g2rzLR15/Tamim-Iqbal-removebg-preview.png"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "bowlingStyle": "N/A",
     "team": "Sylhet Strikers",
     "price": 90000,
-    "image": "https://i.postimg.cc/hjzxh52P/Mushfiqur-Rahim.webp"
+    "image": "https://i.postimg.cc/KjvSSh2V/Mushfiqur-Rahim-removebg-preview.png"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "bowlingStyle": "Right-arm offbreak",
     "team": "Chattogram Challengers",
     "price": 80000,
-    "image": "https://i.postimg.cc/pVjzH39s/Mahmudullah-Riyad.webp"
+    "image": "https://i.postimg.cc/pLK0Z1Nn/Mahmudullah-Riyad-removebg-preview.png"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "bowlingStyle": "N/A",
     "team": "Comilla Victorians",
     "price": 100000,
-    "image": "https://i.postimg.cc/X78ZNWnk/Liton-das.png"
+    "image": "https://i.postimg.cc/Cxp7zHZM/Liton-das-removebg-preview.png"
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "bowlingStyle": "Right-arm fast",
     "team": "Dhaka Dominators",
     "price": 70000,
-    "image": "https://icc-static-files.s3.amazonaws.com/player-images/4886.png"
+    "image": "https://i.postimg.cc/fTzTZ1CM/Taskin-Ahmed-removebg-preview.png"
   },
   {
     "id": 7,
@@ -67,7 +67,7 @@
     "bowlingStyle": "Left-arm fast-medium",
     "team": "Comilla Victorians",
     "price": 110000,
-    "image": "https://i.postimg.cc/vZh5K91M/Mustafizur-Rahman.webp"
+    "image": "https://i.postimg.cc/YqDk70jx/Mustafizur-Rahman-removebg-preview.png"
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "bowlingStyle": "Right-arm offbreak",
     "team": "Khulna Tigers",
     "price": 60000,
-    "image": "https://i.postimg.cc/kgYB8y6V/ehidy-Hasan-Miraz.webp"
+    "image": "https://i.postimg.cc/XvMRNCW9/Mehidy-Hasan-Miraz-removebg-preview.png"
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "bowlingStyle": "Right-arm offbreak",
     "team": "Sylhet Strikers",
     "price": 50000,
-    "image": "https://i.postimg.cc/8kfBCjYB/Najmul-Hossain-Shanto.webp"
+    "image": "https://i.postimg.cc/Pf4T62j9/Najmul-Hossain-Shanto-removebg-preview.png"
   },
   {
     "id": 10,
@@ -97,7 +97,7 @@
     "bowlingStyle": "Right-arm offbreak",
     "team": "Rangpur Riders",
     "price": 40000,
-    "image": "https://i.postimg.cc/brPJ8CM5/Afif-Hossain.jpg"
+    "image": "https://i.postimg.cc/vm3tqJ0D/Afif-Hossain-removebg-preview.png"
   },
   {
     "id": 11,
@@ -107,7 +107,7 @@
     "bowlingStyle": "Right-arm offbreak",
     "team": "Khulna Tigers",
     "price": 45000,
-    "image": "https://i.postimg.cc/6QHL8Rwz/Sabbir-Rahman.jpg"
+    "image": "https://i.postimg.cc/PxnT77Ns/Sabbir-Rahman-removebg-preview.png"
   },
   {
     "id": 12,
@@ -117,6 +117,6 @@
     "bowlingStyle": "Right-arm offbreak",
     "team": "Rangpur Riders",
     "price": 35000,
-    "image": "https://i.postimg.cc/T1nDJW8z/Mosaddek-Hossain.jpg"
+    "image": "https://i.postimg.cc/mZ8W3k3G/mossaddek-2-removebg-preview.png"
   }
 ]
