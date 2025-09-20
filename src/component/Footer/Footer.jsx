@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="w-full bg-[#06091A] flex flex-col items-center pt-56">
         <img src={logo} alt="" />
 
-        <div className="container mx-auto text-white flex items-start justify-between mt-14">
+        <div className="container mx-auto text-white  flex md:flex-row flex-col items-start justify-between mt-14 p-4 gap-10">
           <div className="">
             <h4>About Us</h4>
             <p className="w-2/4">
@@ -30,7 +30,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="text-center py-8 text-white  border-t border-gray-400 w-full mt-16">
+        <div className="text-center py-8 text-[#FFFFFF99]  border-t border-gray-400 w-full mt-16">
           <p>@2024 Your Company All Rights Reserved.</p>
         </div>
       </div>

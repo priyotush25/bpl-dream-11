@@ -1,6 +1,6 @@
 import banner from "../../assets/banner-main.png";
 
-const Banner = () => {
+const Banner = ({ coinAddHandle }) => {
   return (
     <>
       <div className="w-full bg-black p-8 text-center md:p-16 md:rounded-3xl flex flex-col items-center justify-center">
@@ -11,7 +11,10 @@ const Banner = () => {
         <h3 className="font-medium text-2xl text-gray-500 mb-8">
           Beyond Boundaries Beyond Limits
         </h3>
-        <button className="bg-[#E7FE29] btn outline outline-amber-300 border-none  text-black font-semibold py-6 px-10 rounded-lg">
+        <button
+          onClick={coinAddHandle}
+          className="bg-[#E7FE29] btn outline outline-amber-300 border-none  text-black font-semibold py-6 px-10 rounded-lg"
+        >
           Claim Free Credit
         </button>
       </div>
