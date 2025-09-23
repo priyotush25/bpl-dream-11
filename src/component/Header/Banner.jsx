@@ -11,7 +11,7 @@ const Banner = ({ coinAddHandle }) => {
         <img
           src={overlay}
           alt=""
-          className="absolute inset-0 w-full h-full object-cover overflow-clip"
+          className="absolute inset-0 w-full h-full object-cover z-0"
         />
 
         <h1 className="text-white text-4xl mt-6 mb-4 font-bold">
@@ -22,7 +22,7 @@ const Banner = ({ coinAddHandle }) => {
         </h3>
         <button
           onClick={coinAddHandle}
-          className="bg-[#E7FE29] btn outline outline-amber-300 border-none  text-black font-semibold py-6 px-10 rounded-lg"
+          className="bg-[#E7FE29] z-10 btn outline outline-amber-300 border-none  text-black font-semibold py-6 px-10 rounded-lg"
         >
           Claim Free Credit
         </button>

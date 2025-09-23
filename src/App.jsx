@@ -20,7 +20,7 @@ const App = () => {
 
   const coinAddHandle = () => {
     if (coin == 0) {
-      setCoin(coin + 120000);
+      setCoin(coin + 450000);
     }
   };
 
