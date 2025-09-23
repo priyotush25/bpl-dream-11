@@ -1,6 +1,5 @@
 const Player = ({ player, chosePlayerHandle }) => {
-  const { id, name, image, role, battingStyle, bowlingStyle, team, price } =
-    player;
+  const { name, image, role, battingStyle, bowlingStyle, team, price } = player;
 
   return (
     <>

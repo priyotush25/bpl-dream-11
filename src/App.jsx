@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
 import Footer from "./component/Footer/Footer";
 import Banner from "./component/Header/Banner";
 import Header from "./component/Header/Header";
@@ -19,24 +20,23 @@ const App = () => {
 
   const coinAddHandle = () => {
     if (coin == 0) {
-      setCoin(coin + 1200000);
+      setCoin(coin + 120000);
     }
   };
 
   // chose player btn
   const chosePlayerHandle = ({ player }) => {
-    console.log(player);
-
     if (coin > 0) {
       const newCoin = coin - player.price;
       setCoin(newCoin);
     } else {
-      alert("Not Available Coin");
+      toast("Not Available Coin");
+      return;
     }
 
     const newSelectPlayer = selectPlayer.find((p) => p.id === player.id);
     if (newSelectPlayer) {
-      alert("Players already Selected!");
+      toast("Players already Selected!");
       return;
     }
 
@@ -59,7 +59,7 @@ const App = () => {
       <main className="container mx-auto">
         <Banner coinAddHandle={coinAddHandle} />
 
-        <div className="flex items-center my-10 justify-between">
+        <div className="flex items-center my-10 justify-between p-2">
           <h2 className="text-xl  md:text-2xl font-semibold">
             Available Players
           </h2>
@@ -98,6 +98,7 @@ const App = () => {
         )}
       </main>
       <Footer />
+      <ToastContainer />
     </>
   );
 };

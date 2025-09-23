@@ -37,15 +37,21 @@ const Header = ({ coin }) => {
 
             <li className="md:hidden">
               <details>
-                <summary>
+                <summary className="text-3xl ml-2">
                   <RxHamburgerMenu />
                 </summary>
-                <ul className="bg-base-100 rounded-t-none p-2">
+                <ul className="bg-base-100 rounded-t-none p-2 absolute right-0">
                   <li>
-                    <a>Link 1</a>
+                    <a>Home</a>
                   </li>
                   <li>
-                    <a>Link 2</a>
+                    <a>Fixture</a>
+                  </li>
+                  <li>
+                    <a>Teams</a>
+                  </li>
+                  <li>
+                    <a>Schedules</a>
                   </li>
                 </ul>
               </details>
