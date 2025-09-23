@@ -26,7 +26,7 @@ const App = () => {
 
   // chose player btn
   const chosePlayerHandle = ({ player }) => {
-    if (coin > 0) {
+    if (coin > player.price) {
       const newCoin = coin - player.price;
       setCoin(newCoin);
     } else {

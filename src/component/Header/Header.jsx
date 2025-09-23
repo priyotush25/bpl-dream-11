@@ -2,6 +2,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { TbCoinFilled } from "react-icons/tb";
 import logo from "../../assets/logo.png";
 
+
 const Header = ({ coin }) => {
   return (
     <>
@@ -59,6 +60,7 @@ const Header = ({ coin }) => {
           </ul>
         </div>
       </div>
+       
     </>
   );
 };
