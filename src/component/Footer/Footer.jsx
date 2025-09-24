@@ -6,7 +6,7 @@ const Footer = () => {
     <>
       <div className="w-full bg-[#06091A] flex flex-col items-center pt-72">
         {/* news letter */}
-        <div className="-mt-96 border border-gray-100 outline-1 relative overflow-hidden outline-white  outline-offset-8 bg-white rounded-3xl px-64 py-24 flex flex-col items-center justify-center gap-5">
+        <div className=" -mt-96 border border-gray-100 outline-1 relative overflow-hidden outline-white  outline-offset-8 bg-white rounded-3xl px-5 py-10 md:px-64 md:py-24 flex flex-col items-center justify-center gap-5">
           <img
             src={overlay}
             alt=""
@@ -17,14 +17,14 @@ const Footer = () => {
           <p className="text-gray-600">
             Get the latest updates and news right in your inbox!
           </p>
-          <div>
+          <div className="flex items-center">
             <input
-              className="p-3 rounded-xl border border-gray-200"
+              className="p-2 md:p-3 rounded-xl border border-gray-200 flex-1"
               type="text"
               name=""
               placeholder="Enter your email"
             />
-            <button className="p-3 font-semibold rounded-xl bg-amber-200 px-7 ml-4">
+            <button className="flex-1 p-2 md:p-3 font-semibold rounded-xl bg-amber-200 px-7 ml-4">
               Subscribe
             </button>
           </div>
