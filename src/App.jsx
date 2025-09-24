@@ -66,12 +66,12 @@ const App = () => {
       <main className="container mx-auto">
         <Banner coinAddHandle={coinAddHandle} />
 
-        <div className="flex items-center my-10 justify-between p-2">
+        <div className="flex items-center my-10 justify-between p-5">
           <h2 className="text-xl  md:text-2xl font-semibold">
             Available Players
           </h2>
           {/* Available Button */}
-          <div>
+          <div className="w-full flex items-center justify-end">
             <button
               className={`py-6 btn rounded-l-xl rounded-r-none border-r-0 
               ${active ? "bg-[#E7FE29]" : ""}`}
