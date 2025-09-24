@@ -1,21 +1,17 @@
-import Player from "./Player";
+import Player from "../Players/Player";
 
-const Players = ({ players, chosePlayerHandle }) => {
+const Players = ({ players, chosePlayerHandle, selectPlayer }) => {
   return (
-    <>
-      {/* available player section */}
-
-      {/* player section */}
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-44 p-4">
-        {players.map((player) => (
-          <Player
-            player={player}
-            key={player.id}
-            chosePlayerHandle={chosePlayerHandle}
-          />
-        ))}
-      </div>
-    </>
+    <div className="grid md:grid-cols-3 gap-6 mb-52">
+      {players.map((player) => (
+        <Player
+          key={player.id}
+          player={player}
+          chosePlayerHandle={chosePlayerHandle}
+          selectPlayer={selectPlayer}
+        />
+      ))}
+    </div>
   );
 };
 

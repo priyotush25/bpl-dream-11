@@ -1,6 +1,10 @@
 import { MdDeleteForever } from "react-icons/md";
 
 const SelectPlayer = ({ selectPlayer, deletePlayer }) => {
+  if (selectPlayer > 6) {
+    alert("6 player already added");
+    return;
+  }
   return (
     <>
       <div className="my-6 p-2">
@@ -27,7 +31,7 @@ const SelectPlayer = ({ selectPlayer, deletePlayer }) => {
             </div>
           ))
         ) : (
-          <div className="flex justify-center items-center p-12">
+          <div className="flex justify-center items-center p-12 mb-64">
             No player selected!
           </div>
         )}

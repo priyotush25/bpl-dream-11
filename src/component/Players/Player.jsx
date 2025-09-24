@@ -1,5 +1,11 @@
-const Player = ({ player, chosePlayerHandle }) => {
+const Player = ({ player, chosePlayerHandle, selectPlayer }) => {
   const { name, image, role, battingStyle, bowlingStyle, team, price } = player;
+
+  const isDisabled = selectPlayer.some((p) => p.id === player.id);
+
+  const clickHandle = () => {
+    chosePlayerHandle({ player });
+  };
 
   return (
     <>
@@ -14,23 +20,22 @@ const Player = ({ player, chosePlayerHandle }) => {
           <div>
             <h2 className="card-title text-xl">{name}</h2>
             <div className="flex items-center justify-between py-4 border-b-2 border-gray-400 font-semibold">
-              <p className="flex-grow-0">{team}</p>
-              <p className="flex-grow-0">{battingStyle}</p>
+              <p>{team}</p>
+              <p>{battingStyle}</p>
             </div>
-            <div>
-              <div className="flex items-center justify-between mt-4  font-semibold">
-                <p className="flex-grow-0">{role}</p>
-                <p className="flex-grow-0">{bowlingStyle}</p>
-              </div>
+            <div className="flex items-center justify-between mt-4 font-semibold">
+              <p>{role}</p>
+              <p>{bowlingStyle}</p>
             </div>
           </div>
           <div className="card-actions flex items-center justify-between mt-4 font-semibold">
             <p>Price : ${price}</p>
             <button
-              className="btn "
-              onClick={() => chosePlayerHandle({ player })}
+              className={`btn ${isDisabled ? "btn-disabled" : ""}`}
+              onClick={clickHandle}
+              disabled={isDisabled}
             >
-              Choose Player
+              {isDisabled ? "Chosen" : "Choose Player"}
             </button>
           </div>
         </div>

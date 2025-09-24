@@ -18,9 +18,16 @@ const App = () => {
       .then((data) => setPlayers(data));
   }, []);
 
+  // coin claim and function
+  const [coinClaim, setCoinClaim] = useState(false);
+
   const coinAddHandle = () => {
-    if (coin == 0) {
+    if (!coinClaim) {
       setCoin(coin + 450000);
+      setCoinClaim(true);
+      toast("Coin Added Successfully");
+    } else {
+      toast("You already claimed!");
     }
   };
 
@@ -91,10 +98,12 @@ const App = () => {
             selectPlayer={selectPlayer}
           />
         ) : (
-          <SelectPlayer
-            selectPlayer={selectPlayer}
-            deletePlayer={deletePlayer}
-          />
+          <div className="mb-56">
+            <SelectPlayer
+              selectPlayer={selectPlayer}
+              deletePlayer={deletePlayer}
+            />
+          </div>
         )}
       </main>
       <Footer />
